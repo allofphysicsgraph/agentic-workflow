@@ -8,6 +8,38 @@ import os
 # source: https://www.mindstudio.ai/blog/what-is-loop-engineering-autonomous-ai-agent-workflows
 
 # these stages are a sequence of prompts to help guide a human through the ingest of a derivation into https://allofphysics.com/.
+
+
+# stage 1: create detailed Latex derivation
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/167
+
+# stage : create list of steps used in derivation
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/169
+
+
+# stage : create list of symbols used in derivation
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/168
+
+# stage : compare symbols to PDG
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/174
+
+
+# stage : create list of operations used in derivation
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/172
+
+# stage : compare operations to PDG
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/175
+
+
+# stage : create list of expressions used in derivation
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/170
+
+# stage : compare expressions to PDG
+# see prompts used on https://github.com/allofphysicsgraph/task-tracker/issues/176
+
+
+
+
 STAGES = {
     1: {
         "name": "conversion to latex",
